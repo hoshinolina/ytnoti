@@ -76,7 +76,7 @@ class AsyncYouTubeNotifier:
     _UPLOAD_TIMEDELTA_THRESHOLD = timedelta(seconds=20)
     _HTTP_TIMEOUT = 30
     _RETRY_INITIAL_INTERVAL = timedelta(minutes=2)
-    _RETRY_MAX_EXPONENT = 30
+    _RETRY_MAX_EXPONENT = 2
     # Check for re-subscriptions every 30 minutes
     _RESUBSCRIBE_INTERVAL = timedelta(minutes=30)
     # Re-subscribe at 70% to 80% of the lease time
