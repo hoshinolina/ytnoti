@@ -745,7 +745,7 @@ class AsyncYouTubeNotifier:
 
         self._logger.debug("Sending %s request for channel: %s", mode, channel_id)
 
-        topic = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+        topic = f"https://www.youtube.com/xml/feeds/videos.xml?channel_id={channel_id}"
         self._hub_lease_time.pop(topic, None)
 
         response = await client.post(
