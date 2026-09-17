@@ -34,7 +34,7 @@ xmls = [
     f"""
     <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns="http://www.w3.org/2005/Atom">
       <link rel="hub" href="https://pubsubhubbub.appspot.com"/>
-      <link rel="self" href="https://www.youtube.com/xml/feeds/videos.xml?channel_id={channel_id}"/>
+      <link rel="self" href="https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"/>
       <title>YouTube video feed</title>
       <updated>2015-04-01T19:05:24.552394234+00:00</updated>
       <entry>
@@ -55,7 +55,7 @@ xmls = [
     f"""
     <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns="http://www.w3.org/2005/Atom">
       <link rel="hub" href="https://pubsubhubbub.appspot.com"/>
-      <link rel="self" href="https://www.youtube.com/xml/feeds/videos.xml?channel_id={channel_id}"/>
+      <link rel="self" href="https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"/>
       <title>YouTube video feed</title>
       <updated>2015-04-01T19:05:24.552394234+00:00</updated>
       <entry>
@@ -79,7 +79,7 @@ xmls = [
     f"""
     <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns="http://www.w3.org/2005/Atom">
       <link rel="hub" href="https://pubsubhubbub.appspot.com"/>
-      <link rel="self" href="https://www.youtube.com/xml/feeds/videos.xml?channel_id={channel_id}"/>
+      <link rel="self" href="https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"/>
       <title>YouTube video feed</title>
       <updated>2015-04-01T19:05:24.552394234+00:00</updated>
       <entry>
